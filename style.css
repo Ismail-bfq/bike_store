@@ -1,0 +1,47 @@
+h2{
+    color:black;
+    margin: 0;
+    padding: 10px;
+}
+button{
+    color:#000000;
+    background-color: #D4AF37;
+    padding-top:15px ; 
+    padding-bottom:15px ;
+}
+header{ 
+    background-color: #000000d5;
+    padding-top:15px ; 
+    padding-bottom:15px ;
+    color: aliceblue;
+    
+}
+body{
+    margin:0 ;
+    padding: 0;
+    /*background-image:url("images/bg5.jpg");
+    background-repeat: repeat-x repeat-y;*/
+}
+thead{
+    background: #999898;
+}
+table{
+    border: #bf0a0a ;
+    border-width: 100px;
+}
+img{
+    width:100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.description{
+    color :#000000;
+    font-size:40px;
+}
+.profil{
+    width: 4% ;
+    height: 5%;
+    border-radius: 250px;
+    position: relative;
+    
+}
