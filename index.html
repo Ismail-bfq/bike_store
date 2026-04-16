@@ -4,19 +4,32 @@
     <meta charset="UTF-8">
     <title>Bike store</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
         <nav >
-            <button>MENU</button>
+            <button onclick="toggleMenu()">MENU</button>
+            <ul id="dropdown">
+                <li><a href="index.html">home</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="bikes.html">Bikes</a></li>
+                <li><a href="contact.html">Contact </a></li>
+            </ul>
             <div align="right" class="profildiv">
-                <img src="images/mt09.jpeg" alt="error" class="profil">
+                <a href=""><img src="images/user.png" alt="error" class="profil"></a>
             </div>
-            
         </nav>
-        
     </header>
     <main>
+        <div>
+            <div>
+                <img src="images/bg3.jpeg" alt="">
+                <p align="center">
+                    welcom to our bike store <strong>MOTO HUB</strong>
+                </p>
+            </div>
+        </div>
         <table >
             <tr>
                 <td width="25%" height="30%">
@@ -24,11 +37,12 @@
                 </td>
                 <td class="description">
                     <ul>
-                        <li><b>Name : Yamaha YZF-R1</b></li>
-                        <li><b>Engine size : 998cc</b></li>
-                        <li><b>Category : Sport Bike  </b></li>
-                        <li><b>Year: 2024</b></li>
-                        <li><b>Horspower : 200HP</b></li>
+                        <li>Name : Yamaha YZF-R1</li>
+                        <li>Engine size : 998cc</li>
+                        <li>Category : Sport Bike </li>
+                        <li>Year: 2024</li>
+                        <li>Horspower : 200HP</li>
+                        <li>ABS Breaking:Yes</li>
                     </ul>
                 </td>
             </tr>
@@ -38,18 +52,68 @@
                 </td>
                 <td class="description">
                     <ul>
-                        <li><b>Name : Kawazaki ZX-6R</b></li>
-                        <li><b>Engine size : 636cc</b></li>
-                        <li><b>Category : Sport Bike  </b></li>
-                        <li><b>Year: 2024</b></li>
-                        <li><b>Horspower : 130HP</b></li>
-                        <li><b>ABS Breaking</b></li>
+                        <li>Name : Kawazaki ZX-6R</li>
+                        <li>Engine size : 636cc</li>
+                        <li>Category : Sport Bike  </li>
+                        <li>Year: 2024</li>
+                        <li>Horspower : 130HP</li>
+                        <li>ABS Breaking:Yes</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td width="25%" height="30%">
+                    <img src="images/mt09.jpeg" alt="html error" width="100%" height="100%">
+                </td>
+                <td class="description">
+                    <ul>
+                        <li>Name : Yamaha MT09</li>
+                        <li>Engine size :889cc</li>
+                        <li>Category :Naked Bike</li>
+                        <li>Year:2024</li>
+                        <li>Horspower :119</li>
+                        <li>ABS Breaking:Yes</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td width="25%" height="30%">
+                    <img src="images/mt07.jpeg" alt="html error" width="100%" height="100%">
+                </td>
+                <td class="description">
+                    <ul>
+                        <li>Name : Yamaha Mt07</li>
+                        <li>Engine size : 636cc</li>
+                        <li>Category : Naked Bike  </li>
+                        <li>Year: 2024</li>
+                        <li>Horspower : 130HP</li>
+                        <li>ABS Breaking:Yes</li>
                     </ul>
                 </td>
             </tr>
         </table>
         
     </main>
-
+    <footer>
+        <div>
+            <h3>Quick links</h3>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="contact">
+            <h3>Contact Us </h3>
+                <div class="ccontactimg">
+                    <a href=""><img src="images/whatsapp.png" alt="" ></a>
+                    <a href=""><img src="images/instagram.png" alt="" ></a>
+                    <a href=""><img src="images/facebook.png" alt="" ></a>
+                </div>
+            <p>📞 +212 123 999 999</p>
+            <p>📧 Moto_Hub@gmail.com</p>
+            <p>📍Morocco</p>
+        </div>
+        <div>
+            <p  class="copyright">©️2026 MOTO HUB .All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>

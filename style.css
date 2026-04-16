@@ -1,3 +1,6 @@
+*{
+    font-style: ;
+}
 h2{
     color:black;
     margin: 0;
@@ -5,43 +8,126 @@ h2{
 }
 button{
     color:#000000;
-    background-color: #D4AF37;
+    background-color: #6a6a70;
     padding-top:15px ; 
     padding-bottom:15px ;
+    border-radius: 10px;
 }
 header{ 
-    background-color: #000000d5;
     padding-top:15px ; 
     padding-bottom:15px ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(162, 162, 143);
+    background: linear-gradient(rgb(111, 111, 36),rgb(247, 247, 126),rgb(127, 127, 85),rgba(255, 255, 255, 0));
+}
+nav button {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s;
+}
+nav  button:hover {
+    background-color: rgb(0, 0, 0);
     color: aliceblue;
-    
+    border-radius: 5px;
+}
+main{
+    padding-top: 120px; 
+    flex: 1;
 }
 body{
+    display: flex;
+    flex-direction: column;
     margin:0 ;
     padding: 0;
-    /*background-image:url("images/bg5.jpg");
-    background-repeat: repeat-x repeat-y;*/
+    background-image:url("images/bg5.jpg");
+    background-repeat: repeat-x repeat-y;
+    min-height: 100vh;
+    margin: 0;
 }
 thead{
     background: #999898;
 }
-table{
-    border: #bf0a0a ;
-    border-width: 100px;
-}
+
 img{
     width:100%;
-    height: 100%;
+    height: 220px;
     border-radius: 20px;
+    object-fit: cover;
 }
 .description{
     color :#000000;
-    font-size:40px;
+    font-size:30px;
+    font-weight: bold;
+    list-style: none;
+}
+table{
+    background-color: #ccd5cb8e;
+
 }
 .profil{
-    width: 4% ;
-    height: 5%;
-    border-radius: 250px;
-    position: relative;
+    width: 50px ;
+    height: 50px;
+    border-radius: 50%;
+    position: cover;
     
+}
+.profildiv{
+    position: relative;
+    top: -20px;
+    color: rgb(215, 16, 16);
+    margin: 0 ;
+    padding: 0;
+}
+a{
+    color: rgb(88, 79, 101);
+    position: cover;
+}
+#dropdown {
+    display: none;
+    list-style: none;
+    background-color: #b0b8b561;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    z-index: 999;
+}
+#dropdown li a {
+    display: block;
+    padding:12px  20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+#dropdown li a:hover {
+    background-color: black;
+    color: #D4AF37;
+}
+head nav{
+    display: flex;
+    align-items: flex-start;
+    gap : 20px;
+}
+footer{
+    width: 100%;
+    color: aliceblue;
+    background-color: #000000;
+    position: relative;
+    padding: 40px 20px;
+    text-align: center;
+    
+}
+.ccontactimg{
+    width: 20px ;
+    height: 20px;
+    border-radius: 50%;
+    position: cover;
+    margin: o auto;
+    align-items: center;
+
+
 }
