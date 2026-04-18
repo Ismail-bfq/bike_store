@@ -1,5 +1,5 @@
 *{
-    font-style: ;
+    font-family: "Roboto",sans-serif;
 }
 h2{
     color:black;
@@ -8,10 +8,13 @@ h2{
 }
 button{
     color:#000000;
+    font-family: 'Times New Roman', Times, serif;
     background-color: #6a6a70;
     padding-top:15px ; 
     padding-bottom:15px ;
+    padding-right: 15px;
     border-radius: 10px;
+    margin-left: 2% ;
 }
 header{ 
     padding-top:15px ; 
@@ -22,7 +25,7 @@ header{
     width: 100%;
     z-index: 1000;
     background-color: rgb(162, 162, 143);
-    background: linear-gradient(rgb(111, 111, 36),rgb(247, 247, 126),rgb(127, 127, 85),rgba(255, 255, 255, 0));
+    background: rgba(128, 128, 128, 0.726);
 }
 nav button {
     color: #000000;
@@ -78,8 +81,7 @@ table{
 }
 .profildiv{
     position: relative;
-    top: -20px;
-    color: rgb(215, 16, 16);
+    top: -40px;
     margin: 0 ;
     padding: 0;
 }
@@ -128,6 +130,19 @@ footer{
     position: cover;
     margin: o auto;
     align-items: center;
-
-
+}
+.contacting{
+    display: inline;
+    width: 7% ;
+    height:5% ;
+    border-radius: 50px;
+    margin: 2%;
+}
+.Quick-links{
+    margin: 10px;
+}
+.me{
+    margin-top: 10%;
+    font-size: smaller;
+    padding: 0px;
 }
