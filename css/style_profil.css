@@ -1,0 +1,28 @@
+img{
+    width: 15%;
+    height: 15%;
+    display: block;
+
+}
+.frame{
+    border-radius: 50px;
+    background-color:#EEE ;
+    margin-top: 15%;
+    padding: auto ;
+}
+legend{
+    color: rgb(0, 0, 0);
+    font-size: 200%;
+    font-family: "Roboto";
+}
+input:focus{
+    border-color: blue;
+    background-color:black;
+    color: #EEE;
+}
+input :valid{
+    border: 2px solid green ;
+}
+input :invalid{
+    border: 2px solid red ;
+}

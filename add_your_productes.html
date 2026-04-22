@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add_your_Products</title>
+    <link rel="stylesheet" href="css/style_add.css">
+    <script src="js/script_add.js"></script>
+</head>
+<body>
+    <fieldset>
+        <legend>Add bike</legend>
+        <form action="" onsubmit="return validationForm()">
+            <label>Bike Image</label>
+            <input type="file" id="image" accept="image/*" required><br><br>
+            <label for="">Bike name</label>
+            <input type="text" name="Bike name" id="bikeName" placeholder="ex:yamaha R1"  required><br><br>
+            <label for="kk">Bike type</label>
+            
+            <!--Options-->
+            <select name="options" id="" class="options" >
+                <option value="">Adventure Bike</option>
+                <option value="">Naked Bike</option>
+                <option value="">Sport Bike</option>
+                <option value="">Else</option>
+            </select><br><br>  
+
+            <!--Price-->
+            <label for="">Price (MAD)</label>
+            <input type="number" id="price" placeholder="ex:40000" required><br><br>
+            <!--SEller -->
+            <label for="">seller name</label>
+            <input type="text" id="seller" placeholder="seller name" required><br><br>
+
+            <label for="">phone nomber</label>
+            <input type="number" id="phone" placeholder="212XXXXXXXXX" required><br><br>
+            <button type="submit">Add Bike</button>
+    </form>
+    </fieldset>
+</body>
+</html>
