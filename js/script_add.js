@@ -18,11 +18,10 @@ function validationForm(){
         alert("price not given or invalid value ");
         return false
     }
-    iif (phone.length < 10){
+    if (phone.length < 10){
         alert("pleas choose a valid phone number!! ");
         return false
     }
-    // bike added
-    alert("Bike ADDed Successfully ✅")
+    // not always working 
 
 }

@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.Enter{
+    background-color: transparent;
+    border: 3px solid #d4af37;
+    color: #d4af37;
+    padding: 30px 80px;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 25px;
+    letter-spacing: 6px;
+    transition: 0.3s;
+    box-shadow: 0 0 15px #d4af37;
+}
+.Enter:hover{
+    background-color: #d4af37;
+    color: black;
+    box-shadow: 0 0 40px #d4af37;
+    transform: scale(1.05);
+}
+div{
+    text-align: center;
+}
+.tytle{
+    font-size: 80px;
+    padding: 15px 90px;
+    color: #d4af37 ;
+    letter-spacing: 10px;
+    margin-bottom: 40px;
+}

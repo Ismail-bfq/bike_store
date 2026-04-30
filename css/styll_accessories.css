@@ -67,5 +67,8 @@ tr{
     border: 2px solid ;
     width: 75%;
     margin: auto;
-    
+}
+.Home:hover{
+    box-shadow: 0 0 40px #d4af37;
+    transform: scale(1.05);
 }

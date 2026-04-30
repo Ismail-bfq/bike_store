@@ -1,4 +1,4 @@
-.home{
+.home{ 
     width: 50%;
     background-color: #D4AF37;
     border-radius: 20px;
@@ -23,6 +23,7 @@ img:hover{
     transition: 0.5s;
 }
 body{
+    overflow-x: hidden;
     background-color: #111;
     display: flex;
     justify-content: center;
@@ -31,14 +32,9 @@ body{
     margin: 0;
     font-family: Arial, sans-serif;
 }
-/*fieldset:hover{
-    height: 110%;
-    width: 110%;
-    transform: 0.5s;
-}*/
 fieldset{
     background-color: #1a1a1a;
-    border: 2px salid #D4AF37;
+    border: 2px solid #D4AF37;
     border-radius: 15px;
     padding: 30px;
     width: 400px;
@@ -57,7 +53,7 @@ label{
     margin-top: 15px;
     margin-bottom: 5px;
 }
-input, select {
+input{
     width: 100%;
     padding: 10px;
     border: 2px solid #D4AF37;
@@ -66,10 +62,12 @@ input, select {
     color: white;
     font-size: 14px;
     outline: none;
-}
-input:focus, select:focus{
 
+}
+input:focus{
     border-color: white;
+    box-shadow: 0 0 40px #d4af37;
+    transform: scale(1.05);/*shadow effect*/
 }
 button[Type="submit"]{
     width: 100%;
